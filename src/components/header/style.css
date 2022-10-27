@@ -1,0 +1,20 @@
+.mainHeader {
+  height: 7vh;
+  background-color: rgb(131, 125, 116);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.headerSpan {
+  cursor: pointer;
+  color: white;
+}
+
+.headerSpan:hover {
+  color: rgb(53, 107, 53);
+  text-shadow: 0 0 3px white, 0 0 6px rgb(153, 151, 151), 0 0 8px rgb(128, 126, 126), 0 0 9px rgb(173, 173, 173), 0 0 12px white;
+  transform: scale(1.02);
+}

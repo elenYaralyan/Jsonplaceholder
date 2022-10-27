@@ -1,0 +1,68 @@
+.mainComp {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(216, 205, 190);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  gap: 20px;
+}
+
+.itemWrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 0 10px gray;
+  padding: 10px;
+}
+
+.deleteALL {
+  width: 250px;
+  height: 60px;
+  border: none;
+  background-color: rgb(75, 67, 67);
+  opacity: 0.5;
+  color: white;
+  font-size: 20px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+.deleteALL:hover {
+  color: rgb(53, 107, 53);
+  text-shadow: 0 0 3px white, 0 0 6px rgb(153, 151, 151), 0 0 8px rgb(128, 126, 126), 0 0 9px rgb(173, 173, 173), 0 0 12px white;
+  transform: scale(1.02);
+}
+
+.changeBtn {
+  background-color: rgba(75, 67, 67, 0.548);
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 300px;
+  height: 60px;
+  width: 60px;
+  border: none;
+  text-align: center;
+  transition-duration: 0.2s;
+}
+
+.changeImg {
+  height: 30px;
+
+}
+
+.changeBtn:hover {
+  background-color: rgba(75, 67, 67, 0.575);
+  transform: scale(1.02);
+}
+
+.changeBtn:hover .changeImg {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 3px white, 0 0 6px rgb(153, 151, 151), 0 0 8px rgb(128, 126, 126), 0 0 9px rgb(173, 173, 173), 0 0 12px white;
+}
